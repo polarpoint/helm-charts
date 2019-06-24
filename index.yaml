@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  thanos:
+  - apiVersion: v1
+    appVersion: 0.4.2
+    created: 2019-06-24T04:25:48.83063497+01:00
+    description: A Helm chart for thanos
+    digest: bbbe1d5458aa0c0fe3015c15e6948f80fbe15bd39002ba5035dba09b40ba6f7c
+    name: thanos
+    urls:
+    - thanos-0.5.1.tgz
+    version: 0.5.1
+generated: 2019-06-24T04:25:48.826327981+01:00
