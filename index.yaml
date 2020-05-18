@@ -1,38 +1,56 @@
 apiVersion: v1
 entries:
-  prometheus-operator:
+  fluentd-cloudwatch:
   - apiVersion: v1
-    appVersion: 0.31.1
-    created: 2019-07-03T13:21:20.773758589+01:00
-    description: Provides easy monitoring definitions for Kubernetes services, and
-      deployment and management of Prometheus instances.
-    digest: 0b10c97f74f336cf70af67de06c47b7bb01d378b5eb570956ebbb65a4231b54d
+    appVersion: v1.7.3-debian-cloudwatch-1.0
+    created: 2020-05-18T15:43:16.695192646+01:00
+    description: A Fluentd CloudWatch Helm chart for Kubernetes.
+    digest: ead4f59b641b68b1470c09af3001432ec3ee57cba68883f2bffe85a50b2df17b
     engine: gotpl
-    home: https://github.com/coreos/prometheus-operator
-    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
     keywords:
-    - operator
-    - prometheus
+    - fluentd
+    - cloudwatch
+    - logging
     maintainers:
-    - email: gianrubio@gmail.com
-      name: gianrubio
-    - name: anothertobi
-    - name: vsliouniaev
-    name: prometheus-operator
+    - email: jm.carp@gmail.com
+      name: jmcarp
+    - email: michael.haselton@gmail.com
+      name: icereval
+    - email: quentin.nerden@stylight.com
+      name: kenden
+    name: fluentd-cloudwatch
     sources:
-    - https://github.com/coreos/prometheus-operator
-    - https://coreos.com/operators/prometheus
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
     urls:
-    - prometheus-operator-5.14.1.tgz
-    version: 5.14.1
-  thanos:
+    - https://polarpoint-io.github.io/helm-charts/fluentd-cloudwatch-0.12.1.tgz
+    version: 0.12.1
   - apiVersion: v1
-    appVersion: 0.4.2
-    created: 2019-07-03T13:21:20.781549723+01:00
-    description: A Helm chart for thanos
-    digest: bbbe1d5458aa0c0fe3015c15e6948f80fbe15bd39002ba5035dba09b40ba6f7c
-    name: thanos
+    appVersion: v1.7.3-debian-cloudwatch-1.0
+    created: 2020-05-18T15:43:16.695744487+01:00
+    description: A Fluentd CloudWatch Helm chart for Kubernetes.
+    digest: ead4f59b641b68b1470c09af3001432ec3ee57cba68883f2bffe85a50b2df17b
+    engine: gotpl
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - cloudwatch
+    - logging
+    maintainers:
+    - email: jm.carp@gmail.com
+      name: jmcarp
+    - email: michael.haselton@gmail.com
+      name: icereval
+    - email: quentin.nerden@stylight.com
+      name: kenden
+    name: fluentd-cloudwatch
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
     urls:
-    - thanos-0.5.1.tgz
-    version: 0.5.1
-generated: 2019-07-03T13:21:20.758986462+01:00
+    - https://polarpoint-io.github.io/helm-charts/fluentd-cloudwatch/fluentd-cloudwatch-0.12.1.tgz
+    version: 0.12.1
+generated: 2020-05-18T15:43:16.693758381+01:00
